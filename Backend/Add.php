@@ -6,7 +6,7 @@ header("Access-Control-Allow-Headers: Content-Type");
 
 
 
-$con = mysqli_connect("localhost","root","d283a38c","testdb");
+$con = mysqli_connect("localhost","root","","testdb");
 if($con!=null){
 
     // data get from frontend is in json.stringify format 
