@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.formStyle{
+    background-color:cornflowerblue;
+    padding: 25px;
+    margin: 25px;
+    width: 30%;
+    border-radius: 20px;
+
+}
+.row input{
+    padding: 5px;
+    width: 70%;
+}
+.row select {
+    padding: 5px;
+    width: 73%;
+}
+.btn{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 25px;
+    
+}
