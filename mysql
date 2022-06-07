@@ -1,0 +1,12 @@
+create database testdb;
+use testdb;
+
+
+create table Product(
+`Id` INT NOT NULL AUTO_INCREMENT,
+`Title` VARCHAR(45) not NULL,
+`Quantity` int,
+`Size` VARCHAR(45) not NULL,
+`Price` int,
+PRIMARY KEY (`id`)
+);
